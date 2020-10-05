@@ -17,9 +17,9 @@ namespace LineNumbers2
                 int punctuationsCount = punctuationsCounter(line);
 
                 result[i] = ($"Line {i + 1}: {line} ({letterCount})({punctuationsCount})");
-                File.WriteAllLines("../../../output.txt", result);
+                //и тук може и отвън File.WriteAllLines("../../../output.txt", result);
             }
-
+            File.WriteAllLines("../../../output.txt", result);
         }
         static int lettersCounter(string line)
         {

@@ -3,27 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamsFilesDirectories", "StreamsFilesDirectories\StreamsFilesDirectories.csproj", "{C86B5433-E16F-4F9A-82AF-D9256789ED94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamsFilesDirectories", "StreamsFilesDirectories\StreamsFilesDirectories.csproj", "{C86B5433-E16F-4F9A-82AF-D9256789ED94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryReader", "BinaryReader\BinaryReader.csproj", "{3F5687F9-8CAF-49C4-ABC0-95EE2B633AFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryReader", "BinaryReader\BinaryReader.csproj", "{3F5687F9-8CAF-49C4-ABC0-95EE2B633AFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddLines", "OddLines\OddLines.csproj", "{057D852E-693C-46D2-9526-C789382CAC1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddLines", "OddLines\OddLines.csproj", "{057D852E-693C-46D2-9526-C789382CAC1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineNumbers", "LineNumbers\LineNumbers.csproj", "{B84B53E2-29C8-44E1-9AFE-0BBC42DCC1D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineNumbers", "LineNumbers\LineNumbers.csproj", "{B84B53E2-29C8-44E1-9AFE-0BBC42DCC1D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamsDemo", "StreamsDemo\StreamsDemo.csproj", "{9C7DB254-70F9-4567-813E-264C0C9639B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamsDemo", "StreamsDemo\StreamsDemo.csproj", "{9C7DB254-70F9-4567-813E-264C0C9639B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamsSecondDemo", "StreamsSecondDemo\StreamsSecondDemo.csproj", "{E1F09D1A-39F9-4037-82E2-C20A2FAF06D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamsSecondDemo", "StreamsSecondDemo\StreamsSecondDemo.csproj", "{E1F09D1A-39F9-4037-82E2-C20A2FAF06D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteAsString", "ByteAsString\ByteAsString.csproj", "{75462712-6337-4128-B2C3-59131EB36D8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByteAsString", "ByteAsString\ByteAsString.csproj", "{75462712-6337-4128-B2C3-59131EB36D8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliceFile", "SliceFile\SliceFile.csproj", "{4A9E6199-F027-464D-B99C-5A2F411448C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SliceFile", "SliceFile\SliceFile.csproj", "{4A9E6199-F027-464D-B99C-5A2F411448C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileApi", "FileApi\FileApi.csproj", "{269B3C40-6DFB-4689-9808-E783F859FC01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileApi", "FileApi\FileApi.csproj", "{269B3C40-6DFB-4689-9808-E783F859FC01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoriesDemo", "DirectoriesDemo\DirectoriesDemo.csproj", "{3C498F2F-2CA0-4D8B-BC17-069C189D4449}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoriesDemo", "DirectoriesDemo\DirectoriesDemo.csproj", "{3C498F2F-2CA0-4D8B-BC17-069C189D4449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryStreamDemo", "MemoryStreamDemo\MemoryStreamDemo.csproj", "{7D7F9163-033D-4D31-915F-0705393DFFEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryStreamDemo", "MemoryStreamDemo\MemoryStreamDemo.csproj", "{7D7F9163-033D-4D31-915F-0705393DFFEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsCount", "Words\WordsCount.csproj", "{F76F8B39-CC6D-4DD6-8B76-4D29607D0E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenLines", "EvenLines\EvenLines.csproj", "{35E771D1-4B80-460C-B956-D7827DE2A129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineNumbers2", "LineNumbers2\LineNumbers2.csproj", "{027FEACF-87A5-4B0B-9178-77458BD3E30B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{7D7F9163-033D-4D31-915F-0705393DFFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D7F9163-033D-4D31-915F-0705393DFFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D7F9163-033D-4D31-915F-0705393DFFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76F8B39-CC6D-4DD6-8B76-4D29607D0E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76F8B39-CC6D-4DD6-8B76-4D29607D0E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76F8B39-CC6D-4DD6-8B76-4D29607D0E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76F8B39-CC6D-4DD6-8B76-4D29607D0E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E771D1-4B80-460C-B956-D7827DE2A129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E771D1-4B80-460C-B956-D7827DE2A129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E771D1-4B80-460C-B956-D7827DE2A129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E771D1-4B80-460C-B956-D7827DE2A129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027FEACF-87A5-4B0B-9178-77458BD3E30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027FEACF-87A5-4B0B-9178-77458BD3E30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027FEACF-87A5-4B0B-9178-77458BD3E30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027FEACF-87A5-4B0B-9178-77458BD3E30B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

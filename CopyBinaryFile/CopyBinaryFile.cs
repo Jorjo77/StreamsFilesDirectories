@@ -3,7 +3,7 @@ using System.IO;
 
 namespace CopyBinaryFile
 {
-    class Program
+    class CopyBinaryFile
     {
         static void Main(string[] args)
         {

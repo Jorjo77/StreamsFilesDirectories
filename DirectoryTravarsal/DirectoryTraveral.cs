@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace DirectoryTravarsal
 {
-    class Program
+    class DirectoryTraveral
     {
         static void Main(string[] args)
         {

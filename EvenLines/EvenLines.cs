@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace EvenLines
 {
-    class Program
+    class EvenLines
     {
         static void Main(string[] args)
         {

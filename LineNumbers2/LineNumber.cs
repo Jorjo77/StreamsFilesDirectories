@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace LineNumbers2
 {
-    class Program
+    class LineNumber
     {
         static void Main(string[] args)
         {

@@ -22,10 +22,10 @@ namespace DirectoriesDemo
 
             string[] files = Directory.GetFiles(directoryPath);
             double sum = 0;
-            string[] directofies = Directory.GetDirectories(directoryPath);
-            for (int i = 0; i < directofies.Length; i++)
+            string[] directoryfies = Directory.GetDirectories(directoryPath);
+            for (int i = 0; i < directoryfies.Length; i++)
             {
-                sum += GetDirectorySize(directofies[i]);
+                sum += GetDirectorySize(directoryfies[i]);
             }
             for (int i = 0; i < files.Length; i++)
             {

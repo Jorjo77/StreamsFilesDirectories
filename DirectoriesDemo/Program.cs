@@ -15,7 +15,7 @@ namespace DirectoriesDemo
             //02:57 от видеото има как да си направим вирус!
             //02:59 резюме!:
             //StreamReader and StreamWriter са основните и важни от тази лекция!!!
-            Console.WriteLine(GetDirectorySize(directoryPath));
+            Console.WriteLine(GetDirectorySize("directoryPath"));
         }
         static double GetDirectorySize(string directoryPath)
         {

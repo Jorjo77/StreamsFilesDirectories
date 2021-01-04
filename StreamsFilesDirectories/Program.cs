@@ -67,11 +67,8 @@ namespace StreamsFilesDirectories
             //{
             //    Console.WriteLine(reader.ReadToEnd());
             //}
-            //а най-често е в този вид:
-            using (StreamReader reader = new StreamReader("../../../input.txt"))
-            {
-                Console.WriteLine(reader.ReadToEnd());
-            }
+
+
             //новия синтаксис:
             //using StreamReader reader = new StreamReader("../../../input.txt");
             //{
@@ -81,7 +78,16 @@ namespace StreamsFilesDirectories
             //FileStream класа има повече функционалности от StreamReader и StreamWriter и се използва повече!
 
             //FileStream stream = new FileStream("../../../input.txt", FileMode.)
-             //сега за да мога да пишa в този файл трябва да използвам някакъв буфер, понеже стриймовете използват поредица от байтове, трябва да използвам байт масив който да ми е буфер и с него да чета и пиша в/у този файл използвайки стийма който съм създал!
+            //сега за да мога да пишa в този файл трябва да използвам някакъв буфер, понеже стриймовете използват поредица от байтове, трябва да използвам байт масив който да ми е буфер и с него да чета и пиша в/у този файл използвайки стийма който съм създал!
+
+
+            //using- ите можем да ги подреждаме един под друг, без да ги нестваме и пак ще се затворят както трябва:
+            //можем да използваме using по този начин (без да бъдат нестнати и ще се затворят и двата както трябва):
+            //using (StreamReader reader = new StreamReader("../../../input.txt"))
+            //using (StreamWriter writer = new StreamWriter($"../../../students part.txt"))
+            //{
+            //    Console.WriteLine(reader.ReadToEnd());
+            //}
         }
     }
 }
